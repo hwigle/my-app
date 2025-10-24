@@ -5,6 +5,7 @@ import Home from './Home';
 import BoardList from './BoardList';
 import BoardDetail from './BoardDetail';
 import BoardWrite from './BoardWrite';
+import BoardUpdate from './BoardUpdate';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
         <Route path="/detail/:boardId" element={<BoardDetail />} />
         <Route path="/write" element={<BoardWrite />} />
+        <Route path="/update/:boardId" element={<BoardUpdate />} />
 
       </Routes>
 
